@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>Label to ID</name>
+    <id>org.inkscape.label.to.id</id>
+    <param name="tab" type="notebook">
+        <page name="options" gui-text="Options">
+            <label>Sets the labels of selected elements as their IDs.</label>
+        </page>
+    </param>
+    <effect>
+        <object-type>all</object-type>
+        <effects-menu>
+            <submenu name=".Custom"/>
+        </effects-menu>
+    </effect>
+    <script>
+        <command location="extensions" interpreter="python">label_to_id.py</command>
+    </script>
+</inkscape-extension>
