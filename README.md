@@ -13,7 +13,7 @@ This extension allows you to automatically set the ID attribute of SVG elements 
 
 ## Installation
 
-1. Download the file (`label_to_id.zip`) from the Releases tab
+1. Download the file (`label_to_id.zip`) from the [Releases tab](https://github.com/davej/inkscape-label-to-id/releases)
 2. Place it in your Inkscape extensions folder:
     - Windows: `%APPDATA%\Inkscape\extensions\`
     - Linux: `~/.config/inkscape/extensions/`

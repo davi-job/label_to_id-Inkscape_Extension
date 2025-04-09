@@ -109,7 +109,7 @@ class SetIdToLabel(inkex.EffectExtension):
             self.msg(f"== Errors ========================================= \n")
             
             for key in errors.keys():
-                self.msg(f"{key}: {errors[key]}. \n")
+                self.msg(f"{key}: {errors[key]} \n")
         
         if skipped:
             self.msg(f"== Skipped ======================================== \n")
